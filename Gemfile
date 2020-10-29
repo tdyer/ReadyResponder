@@ -37,6 +37,7 @@ gem 'paper_trail'
 
 #For nested forms
 gem 'cocoon'
+gem 'bigdecimal', '1.3.5'
 
 group :test, :development do
   gem 'dotenv-rails'
@@ -57,7 +58,13 @@ group :test, :development do
   gem 'database_cleaner', '1.0.1'
   gem 'test-unit'
   gem 'pry'
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+
+  gem 'awesome_print', '~> 1.8'
+  # gem 'pry-awesome_print', '~> 9.6', '>= 9.6.11'
+  gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'pry-rails'
+
   gem 'byebug'
 end
 
@@ -105,6 +112,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt'
 gem 'jquery-ui-rails'
 gem 'bootstrap-sass', '3.3.7'
