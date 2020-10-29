@@ -105,6 +105,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt' 
 gem 'jquery-ui-rails'
 gem 'bootstrap-sass', '3.3.7'
